@@ -2,7 +2,8 @@
 
 The main goal of this project was to make a simple, small LED chaser using basic ICs. It has 10 SMD LEDs arranged in a way that makes a smooth running light effect. It is a small PCB that runs on a CR2032 coin cell battery.
 
----<img width="820" height="560" alt="Screenshot From 2026-04-01 09-38-24" src="https://github.com/user-attachments/assets/2f5c27cb-4a53-41e1-af0c-4320ea5924ae" />
+---
+<img width="820" height="560" alt="Screenshot From 2026-04-01 09-38-24" src="https://github.com/user-attachments/assets/2f5c27cb-4a53-41e1-af0c-4320ea5924ae" />
 <img width="909" height="606" alt="Screenshot From 2026-04-01 09-38-38" src="https://github.com/user-attachments/assets/2d355a67-b4c6-4b3c-99e0-d84692e3d617" />
 
 # Explain PCB
@@ -14,11 +15,11 @@ The main timing controller is the TLC555 (CMOS version for low power), and the C
 
 ---
 # Specs Power: 
-3V CR2032 coin cell
-TLC555 Timer IC is the controller.
-CD4017 Decade Counter: Counter
-LEDs: 10 SMD LEDs in size 0603
-Control: 100k Potentiometer (for controlling speed)
-Switch: Slide Switch (ON/OFF)
-Low-Power Design
+- 3V CR2032 coin cell
+- TLC555 Timer IC is the controller.
+- CD4017 Decade Counter: Counter
+- LEDs: 10 SMD LEDs in size 0603
+- Control: 100k Potentiometer (for controlling speed)
+- Switch: Slide Switch (ON/OFF)
+- Low-Power Design
 EasyEDA and JLCPCB can be used to design and make it.
